@@ -1,0 +1,32 @@
+{
+  "name": "datenight",
+  "version": "1.0.0",
+  "description": "determining what to do on date night",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaleJJacobs/DateNight.git"
+  },
+  "keywords": [
+    "date",
+    "night"
+  ],
+  "author": "Dale Jacobs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaleJJacobs/DateNight/issues"
+  },
+  "homepage": "https://github.com/DaleJJacobs/DateNight#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "mongojs": "^3.1.0",
+    "nodejs": "0.0.0",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.0"
+  }
+}
